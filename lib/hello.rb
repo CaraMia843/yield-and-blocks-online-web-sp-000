@@ -4,6 +4,7 @@ def hello_t(array)
     yield array[counter]
     counter = counter + 1
   end
+  array
 end
 
 # call your method here!
